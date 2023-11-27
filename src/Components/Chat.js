@@ -249,7 +249,7 @@ function ChatApp() {
     <div className="chat-app">
       <div className="navbar">
         <div className="py-6 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400 text-center text-4xl ">
-          EHR Assistant
+          PAMOJA PAN-AFRICA AI PATHWAY
         </div>
       </div>
       <div className="chat-container chatbox-container">

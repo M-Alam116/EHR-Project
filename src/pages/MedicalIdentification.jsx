@@ -50,7 +50,7 @@ const MedicalIdVerification = () => {
   return (
     <div className="flex flex-col py-20 bg-blue-100 items-center min-h-screen">
       <div className="py-6 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-400 text-center text-4xl ">
-        EHR Assistant
+        PAMOJA PAN-AFRICA AI PATHWAY
       </div>
       <p className="text-xl text-gray-600 text-center font-[600]">
         Discuss about your health with our <br />
