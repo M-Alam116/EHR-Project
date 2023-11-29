@@ -1,6 +1,4 @@
-
 .navbar {
-
   /* background-color: transparent; */
   background-color: #ffffff;
 }
@@ -14,11 +12,13 @@
 
 .animate-charcter {
   text-transform: uppercase;
-  background-image: linear-gradient(-225deg,
-      #1b3aa9 0%,
-      #10bed5 29%,
-      #ff1361 67%,
-      #fff800 100%);
+  background-image: linear-gradient(
+    -225deg,
+    #1b3aa9 0%,
+    #10bed5 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -70,32 +70,39 @@
 
 /* Message Styles */
 .message {
-  margin: 10px 0;
+  /* margin: 10px 0;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
   background: #ffffff;
-  border-radius: 20px;
+  border-radius: 20px; */
+  max-width: 350px;
+  padding: 15px;
+  color: #fff;
+  border-radius: 25px;
+  margin: 10px 0;
 }
 
 .user {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   align-self: flex-end;
+  margin-left: auto;
+  border-bottom-left-radius: 0px;
 }
 
-  
-
-
-
 .gpt {
-  background-color: #00b3ffbe;
+  /* background-color: #00b3ffbe;
   color: white;
   align-self: flex-start;
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 20px; */
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin-right: 30px;
+  border-bottom-right-radius: 0px;
 }
 
 /* Input Container */
@@ -103,9 +110,8 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  
-  /* background-color: #f1f5fe; */
 
+  /* background-color: #f1f5fe; */
 }
 
 .chat-inp {
@@ -176,11 +182,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  .chat-container{
+  .chat-container {
     padding: 0;
     margin: 0;
   }
-  .chat-box{
+  .chat-box {
     border: none;
     border-radius: 0px;
     max-height: 434px;
@@ -189,5 +195,4 @@
   .chat-app {
     height: 100vh;
   }
-
 }
